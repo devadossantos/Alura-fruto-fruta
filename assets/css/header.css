@@ -1,0 +1,31 @@
+.cabecalho{
+    align-items: center;
+    display: flex;
+    background-color: #f9f9f9;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.cabecalho .menu .menu__lista{
+    display: flex;
+}
+.cabecalho .menu .menu__lista .menu__item{
+    list-style-type: none;
+}
+.cabecalho .menu .menu__lista .menu__item .menu__link{
+    text-decoration: none;
+    color: #808080;
+    text-transform: lowercase;
+    margin-right: 1.25rem;
+}
+.cabecalho .menu .menu__lista .menu__item .ativo{
+    color: #333333;
+    font-weight: bold;
+}
+.cabecalho .menu .menu__lista .menu__item:last-child .menu__link {
+    margin-right: 0;
+}
+
+.cabecalho .menu .menu__lista .menu__item .menu__link:hover{
+    text-decoration: underline;
+}
